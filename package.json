@@ -15,8 +15,16 @@
   },
   "dependencies": {
     "gatsby": "^2.26.1",
+    "gatsby-image": "^2.9.0",
+    "gatsby-plugin-postcss": "^3.5.0",
+    "gatsby-plugin-sharp": "^2.12.0",
+    "gatsby-source-contentful": "^4.4.0",
+    "gatsby-source-filesystem": "^2.9.0",
+    "gatsby-transformer-sharp": "^2.10.0",
+    "postcss": "^8.2.2",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
     "prettier": "2.2.1"

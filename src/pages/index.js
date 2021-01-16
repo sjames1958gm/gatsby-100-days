@@ -1,15 +1,10 @@
-import { Link } from "gatsby"
 import React from "react"
-import Header from "../components/header"
-
+import Layout from "../components/layout"
 
 export default function Home() {
   return (
-    <div style={{ color: "purple" }}>
-      <Header headerText="Hello Gatsby"></Header>
-      <Link to="/contact/">Contact</Link>
-      <p>What a world.</p>
-      <img src="https://source.unsplash.com/random/400x200" alt="" />
-    </div>
+    <Layout>
+      <h1 className="ml-10">Hello from index</h1>
+    </Layout>
   )
 }
